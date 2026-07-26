@@ -6,6 +6,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY database ./database
+COPY data_generation ./data_generation
+COPY etl ./etl
 COPY backend ./backend
 COPY utils ./utils
 
