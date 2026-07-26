@@ -1,0 +1,153 @@
+- generic:
+  - generic [ref=f65e259]:
+    - log [ref=f65e260]:
+      - generic [ref=f65e261]: 5 options available.
+    - log
+  - generic [ref=f65e2]:
+    - generic [ref=f65e4]:
+      - button [ref=f65e263] [cursor=pointer]:
+        - generic [ref=f65e264]: keyboard_double_arrow_left
+      - generic [ref=f65e8]:
+        - paragraph [ref=f65e13]:
+          - strong [ref=f65e14]: Filters
+        - generic [ref=f65e16]:
+          - paragraph [ref=f65e20]: Date range
+          - textbox [ref=f65e266]:
+            - /placeholder: YYYY/MM/DD – YYYY/MM/DD
+            - text: 2024/12/31 – 2025/12/31
+        - generic [ref=f65e26]:
+          - paragraph [ref=f65e30]: Region
+          - group [ref=f65e32]:
+            - combobox "Region" [expanded] [active] [ref=f65e33]: All
+            - button [expanded] [ref=f65e267] [cursor=pointer]
+        - generic [ref=f65e39]:
+          - paragraph [ref=f65e43]: Category
+          - group [ref=f65e45]:
+            - combobox [ref=f65e268]: All
+            - button [ref=f65e269] [cursor=pointer]
+        - generic [ref=f65e52]:
+          - paragraph [ref=f65e56]: Customer Segment
+          - group [ref=f65e58]:
+            - combobox [ref=f65e270]: All
+            - button [ref=f65e271] [cursor=pointer]
+    - generic [ref=f65e66]:
+      - banner [ref=f65e67]
+      - generic [ref=f65e71]:
+        - generic [ref=f65e72]: Executive Summary — FY2025
+        - generic [ref=f65e77]: Commercial Performance Intelligence Platform
+        - generic [ref=f65e83]:
+          - generic [ref=f65e88]:
+            - paragraph [ref=f65e91]: Revenue
+            - paragraph [ref=f65e94]: $437.6M
+            - paragraph [ref=f65e98]: 20.48% YoY
+          - generic [ref=f65e103]:
+            - paragraph [ref=f65e106]: Gross Profit
+            - paragraph [ref=f65e109]: $124.8M
+          - generic [ref=f65e114]:
+            - paragraph [ref=f65e117]: Gross Margin
+            - paragraph [ref=f65e120]: 28.5%
+          - generic [ref=f65e125]:
+            - paragraph [ref=f65e128]: Avg Order Value
+            - paragraph [ref=f65e131]: $4,251
+          - generic [ref=f65e136]:
+            - paragraph [ref=f65e139]: Active Customers
+            - paragraph [ref=f65e142]: 3,000
+            - paragraph [ref=f65e146]: 0.0% YoY
+        - generic [ref=f65e148]:
+          - generic [ref=f65e149]: Revenue trend
+          - generic [ref=f65e159]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Jan 2025
+                    - generic: Mar 2025
+                    - generic: May 2025
+                    - generic: Jul 2025
+                    - generic: Sep 2025
+                    - generic: Nov 2025
+                  - generic:
+                    - generic: $0.0
+                    - generic: $10M
+                    - generic: $20M
+                    - generic: $30M
+                    - generic: $40M
+        - generic [ref=f65e174]:
+          - generic [ref=f65e178]:
+            - generic [ref=f65e179]: Revenue by region
+            - generic [ref=f65e189]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: $116.7M
+                              - generic: $115.7M
+                              - generic: $105.5M
+                              - generic: $99.6M
+                    - generic:
+                      - generic: West
+                      - generic: South
+                      - generic: Midwest
+                      - generic: Northeast
+          - generic [ref=f65e206]:
+            - generic [ref=f65e207]: Revenue by customer segment
+            - generic [ref=f65e217]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: $94.6M
+                              - generic: $91.3M
+                              - generic: $86.6M
+                              - generic: $86.4M
+                              - generic: $78.6M
+                    - generic:
+                      - generic: MRO
+                      - generic: Government
+                      - generic: Industrial
+                      - generic: OEM
+                      - generic: Construction
+        - generic [ref=f65e232]:
+          - generic [ref=f65e233]: Top 10 products by revenue
+          - generic [ref=f65e243]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $1.5M
+                            - generic: $1.5M
+                            - generic: $1.4M
+                            - generic: $1.4M
+                            - generic: $1.4M
+                            - generic: $1.4M
+                            - generic: $1.3M
+                            - generic: $1.3M
+                            - generic: $1.3M
+                            - generic: $1.3M
+                  - generic:
+                    - generic: "Hard Hat DeWalt #586"
+                    - generic: "Wiring DeWalt #243"
+                    - generic: "Screw Honeywell #424"
+                    - generic: "Pipe Honeywell #596"
+                    - generic: "Wire Brushe Ironclad #103"
+                    - generic: "Pump 3M #583"
+                    - generic: "Pipe Ironclad #696"
+                    - generic: "Anchor Generic-Pro #237"
+                    - generic: "Fan Bosch #55"
+                    - generic: "Switche Milwaukee #382"
+  - generic [ref=f65e273]:
+    - listbox "Region Open" [ref=f65e274]:
+      - option "All" [selected] [ref=f65e275] [cursor=pointer]
+    - button "Dismiss" [ref=f65e278] [cursor=pointer]

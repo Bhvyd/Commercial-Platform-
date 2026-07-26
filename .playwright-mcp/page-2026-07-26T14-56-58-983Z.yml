@@ -1,0 +1,175 @@
+- generic [ref=f92e2]:
+  - generic [ref=f92e11]:
+    - paragraph [ref=f92e16]:
+      - strong [ref=f92e17]: Filters
+    - generic [ref=f92e19]:
+      - paragraph [ref=f92e23]: Quick range
+      - group [ref=f92e25]:
+        - combobox "Quick range" [ref=f92e26]: Last 12 months
+        - button "Open" [ref=f92e27] [cursor=pointer]
+    - generic [ref=f92e32]:
+      - generic [ref=f92e36]:
+        - paragraph [ref=f92e40]: From
+        - textbox "Select a date." [ref=f92e44]:
+          - /placeholder: YYYY/MM/DD
+          - text: 2024/12/31
+        - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+        - paragraph: Selected date is 2024/12/31. Select the second date.
+      - generic [ref=f92e48]:
+        - paragraph [ref=f92e52]: To
+        - textbox "Select a date." [ref=f92e56]:
+          - /placeholder: YYYY/MM/DD
+          - text: 2025/12/31
+        - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+        - paragraph: Selected date is 2025/12/31. Select the second date.
+    - generic [ref=f92e58]:
+      - paragraph [ref=f92e62]: Region
+      - group [ref=f92e64]:
+        - combobox "Region" [ref=f92e65]: All
+        - button "Open" [ref=f92e66] [cursor=pointer]
+    - generic [ref=f92e71]:
+      - paragraph [ref=f92e75]: Category
+      - group [ref=f92e77]:
+        - combobox "Category" [ref=f92e78]: All
+        - button "Open" [ref=f92e79] [cursor=pointer]
+    - generic [ref=f92e84]:
+      - paragraph [ref=f92e88]: Customer Segment
+      - group [ref=f92e90]:
+        - combobox "Customer Segment" [ref=f92e91]: All
+        - button "Open" [ref=f92e92] [cursor=pointer]
+  - generic [ref=f92e3]:
+    - banner [ref=f92e98]
+    - generic [ref=f92e102]:
+      - tablist [ref=f92e103]:
+        - tab [ref=f92e104] [cursor=pointer]:
+          - paragraph [ref=f92e106]: Executive Summary
+        - tab [ref=f92e108] [cursor=pointer]:
+          - paragraph [ref=f92e110]: Profitability Analysis
+        - tab [ref=f92e111] [cursor=pointer]:
+          - paragraph [ref=f92e113]: Pricing & Discount
+        - tab [ref=f92e114] [cursor=pointer]:
+          - paragraph [ref=f92e116]: Revenue Leakage
+        - tab [active] [selected] [ref=f92e117] [cursor=pointer]:
+          - paragraph [ref=f92e119]: Sales Performance
+        - tab [ref=f92e120] [cursor=pointer]:
+          - paragraph [ref=f92e122]: Customer Analytics
+        - tab [ref=f92e123] [cursor=pointer]:
+          - paragraph [ref=f92e125]: Business Insights
+        - tab [ref=f92e126] [cursor=pointer]:
+          - paragraph [ref=f92e128]: Executive Reporting
+      - tabpanel "Sales Performance" [ref=f92e439]:
+        - generic [ref=f92e440]:
+          - generic [ref=f92e441]: Sales Performance
+          - generic [ref=f92e446]: Trends, leaders, and what's next
+          - generic [ref=f92e452]:
+            - generic [ref=f92e453]: Revenue trend with 3-month forecast
+            - generic [ref=f92e463]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Jan 2025
+                      - generic: Mar 2025
+                      - generic: May 2025
+                      - generic: Jul 2025
+                      - generic: Sep 2025
+                      - generic: Nov 2025
+                      - generic: Jan 2026
+                      - generic: Mar 2026
+                    - generic:
+                      - generic: $0.0
+                      - generic: $10M
+                      - generic: $20M
+                      - generic: $30M
+                      - generic: $40M
+                      - generic: $50M
+              - img:
+                - generic [ref=f92e470]:
+                  - generic [ref=f92e471]: Actual
+                  - generic [ref=f92e474]: Forecast
+          - paragraph [ref=f92e481]: Forecast is a simple linear trend projection, not a seasonal model — treat it as directional, not exact.
+          - generic [ref=f92e483]:
+            - generic [ref=f92e487]:
+              - generic [ref=f92e488]: Revenue by region
+              - generic [ref=f92e498]:
+                - img:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: $116.7M
+                                - generic: $115.7M
+                                - generic: $105.5M
+                                - generic: $99.6M
+                      - generic:
+                        - generic: West
+                        - generic: South
+                        - generic: Midwest
+                        - generic: Northeast
+            - generic [ref=f92e505]:
+              - generic [ref=f92e506]: Sales rep leaderboard (gross profit)
+              - generic [ref=f92e516]:
+                - img:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: $2.2M
+                                - generic: $2.2M
+                                - generic: $2.1M
+                                - generic: $2.1M
+                                - generic: $2.1M
+                                - generic: $2.1M
+                                - generic: $2.1M
+                                - generic: $2.1M
+                                - generic: $2.1M
+                                - generic: $2.1M
+                      - generic:
+                        - generic: Tamara George
+                        - generic: Bradley Sandoval
+                        - generic: Austin Smith
+                        - generic: Mrs. Rachel Gibson
+                        - generic: Justin Baker
+                        - generic: Tyler Miller
+                        - generic: Emily Rios
+                        - generic: Monica Logan
+                        - generic: Joshua Turner
+                        - generic: Michelle Ross
+          - generic [ref=f92e521]:
+            - generic [ref=f92e522]: Top 10 products by revenue
+            - generic [ref=f92e532]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: $1.5M
+                              - generic: $1.5M
+                              - generic: $1.4M
+                              - generic: $1.4M
+                              - generic: $1.4M
+                              - generic: $1.4M
+                              - generic: $1.3M
+                              - generic: $1.3M
+                              - generic: $1.3M
+                              - generic: $1.3M
+                    - generic:
+                      - generic: "Hard Hat DeWalt #586"
+                      - generic: "Wiring DeWalt #243"
+                      - generic: "Screw Honeywell #424"
+                      - generic: "Pipe Honeywell #596"
+                      - generic: "Wire Brushe Ironclad #103"
+                      - generic: "Pump 3M #583"
+                      - generic: "Pipe Ironclad #696"
+                      - generic: "Anchor Generic-Pro #237"
+                      - generic: "Fan Bosch #55"
+                      - generic: "Switche Milwaukee #382"

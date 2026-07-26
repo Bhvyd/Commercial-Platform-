@@ -1,0 +1,14 @@
+[theme]
+base = "dark"
+primaryColor = "#c1725a"
+backgroundColor = "#161311"
+secondaryBackgroundColor = "#201c19"
+textColor = "#eae7e0"
+font = "sans serif"
+
+[theme.sidebar]
+primaryColor = "#c1725a"
+backgroundColor = "#201c19"
+
+[server]
+headless = true

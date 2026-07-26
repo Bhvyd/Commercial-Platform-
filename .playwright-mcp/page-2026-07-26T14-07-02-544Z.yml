@@ -1,0 +1,133 @@
+- generic:
+  - generic [ref=f85e204]:
+    - log [ref=f85e205]:
+      - generic [ref=f85e206]: 4 options available.
+    - log
+  - generic [ref=f85e2]:
+    - generic [ref=f85e7]:
+      - list [ref=f85e10]:
+        - listitem [ref=f85e11]:
+          - link [ref=f85e207] [cursor=pointer]:
+            - /url: http://127.0.0.1:8501/
+            - paragraph [ref=f85e16]: Executive Summary
+        - listitem [ref=f85e17]:
+          - link [ref=f85e208] [cursor=pointer]:
+            - /url: http://127.0.0.1:8501/Profitability_Analysis
+            - paragraph [ref=f85e22]: Profitability Analysis
+      - generic [ref=f85e26]:
+        - paragraph [ref=f85e31]:
+          - strong [ref=f85e32]: Filters
+        - generic [ref=f85e34]:
+          - paragraph [ref=f85e38]: Quick range
+          - group [ref=f85e40]:
+            - combobox [ref=f85e209]: Last 12 months
+            - button [ref=f85e210] [cursor=pointer]
+        - generic [ref=f85e47]:
+          - generic [ref=f85e51]:
+            - paragraph [ref=f85e55]: From
+            - textbox [ref=f85e211]:
+              - /placeholder: YYYY/MM/DD
+              - text: 2024/12/31
+          - generic [ref=f85e63]:
+            - paragraph [ref=f85e67]: To
+            - textbox [ref=f85e212]:
+              - /placeholder: YYYY/MM/DD
+              - text: 2025/12/31
+        - generic [ref=f85e73]:
+          - paragraph [ref=f85e77]: Region
+          - group [ref=f85e79]:
+            - combobox [ref=f85e213]: All
+            - button [ref=f85e214] [cursor=pointer]
+        - generic [ref=f85e86]:
+          - paragraph [ref=f85e90]: Category
+          - group [ref=f85e92]:
+            - combobox [ref=f85e215]: All
+            - button [ref=f85e216] [cursor=pointer]
+        - generic [ref=f85e99]:
+          - paragraph [ref=f85e103]: Customer Segment
+          - group [ref=f85e105]:
+            - combobox [ref=f85e217]: All
+            - button [ref=f85e218] [cursor=pointer]
+    - generic [ref=f85e3]:
+      - banner [ref=f85e113]
+      - generic [ref=f85e115]:
+        - generic [ref=f85e116]: Profitability Analysis
+        - generic [ref=f85e121]: Where the margin comes from
+        - generic [ref=f85e127]:
+          - generic [ref=f85e131]:
+            - paragraph [ref=f85e135]: Break down by
+            - group [ref=f85e137]:
+              - combobox [ref=f85e219]: Product
+              - button [ref=f85e220] [cursor=pointer]
+          - generic [ref=f85e146]:
+            - paragraph [ref=f85e150]: Rank by
+            - group [ref=f85e152]:
+              - combobox "Rank by" [expanded] [active] [ref=f85e153]: Highest gross profit
+              - button [expanded] [ref=f85e221] [cursor=pointer]
+        - generic [ref=f85e159]:
+          - generic [ref=f85e160]: Highest gross profit by product
+          - generic [ref=f85e170]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $616,733
+                            - generic: $588,963
+                            - generic: $564,405
+                            - generic: $553,795
+                            - generic: $524,479
+                            - generic: $517,895
+                            - generic: $515,801
+                            - generic: $513,488
+                            - generic: $510,819
+                            - generic: $498,755
+                            - generic: $495,936
+                            - generic: $493,208
+                            - generic: $485,764
+                            - generic: $476,904
+                            - generic: $475,913
+                  - generic:
+                    - generic: "Hard Hat DeWalt #586"
+                    - generic: "Wire Brushe Honeywell #324"
+                    - generic: "Sanding Disc 3M #303"
+                    - generic: "Rivet Ironclad #203"
+                    - generic: "Pump 3M #583"
+                    - generic: "Breaker Honeywell #747"
+                    - generic: "Pipe Honeywell #596"
+                    - generic: "Shelving Milwaukee #374"
+                    - generic: "Anchor Honeywell #227"
+                    - generic: "Wiring DeWalt #243"
+                    - generic: "Wire Brushe Ironclad #103"
+                    - generic: "Pipe Ironclad #696"
+                    - generic: "Anchor Generic-Pro #237"
+                    - generic: "Fan Bosch #55"
+                    - generic: "Switche Milwaukee #382"
+        - generic [ref=f85e175]:
+          - generic [ref=f85e176]: Gross margin trend
+          - generic [ref=f85e186]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Jan 2025
+                    - generic: Mar 2025
+                    - generic: May 2025
+                    - generic: Jul 2025
+                    - generic: Sep 2025
+                    - generic: Nov 2025
+                  - generic:
+                    - generic: 28.5%
+                    - generic: 29.0%
+                    - generic: 29.5%
+                    - generic: 30.0%
+        - generic [ref=f85e191]:
+          - generic [ref=f85e192]: Loss-making customers
+          - paragraph [ref=f85e201]: No loss-making customers in the selected filters.
+  - generic [ref=f85e223]:
+    - listbox "Rank by Open" [ref=f85e224]:
+      - option "Highest gross profit" [selected] [ref=f85e225] [cursor=pointer]
+    - button "Dismiss" [ref=f85e228] [cursor=pointer]

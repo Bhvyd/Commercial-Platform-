@@ -1,0 +1,175 @@
+- generic:
+  - generic [ref=f1e320]:
+    - log [ref=f1e321]:
+      - generic [ref=f1e322]: 5 options available.
+    - log
+  - generic [ref=f1e2]:
+    - generic [ref=f1e7]:
+      - button [ref=f1e324] [cursor=pointer]:
+        - generic [ref=f1e325]: keyboard_double_arrow_left
+      - generic [ref=f1e11]:
+        - heading [level=2] [ref=f1e327]: Filters
+        - generic [ref=f1e17]:
+          - paragraph [ref=f1e21]: Date range
+          - textbox [ref=f1e328]:
+            - /placeholder: YYYY/MM/DD – YYYY/MM/DD
+            - text: 2024/12/31 – 2025/12/31
+        - generic [ref=f1e27]:
+          - paragraph [ref=f1e31]: Region
+          - group [ref=f1e33]:
+            - combobox "Region" [expanded] [active] [ref=f1e34]: All
+            - button [expanded] [ref=f1e329] [cursor=pointer]
+        - generic [ref=f1e40]:
+          - paragraph [ref=f1e44]: Category
+          - group [ref=f1e46]:
+            - combobox [ref=f1e330]: All
+            - button [ref=f1e331] [cursor=pointer]
+        - generic [ref=f1e53]:
+          - paragraph [ref=f1e57]: Customer Segment
+          - group [ref=f1e59]:
+            - combobox [ref=f1e332]: All
+            - button [ref=f1e333] [cursor=pointer]
+    - generic [ref=f1e3]:
+      - banner [ref=f1e67]:
+        - generic [ref=f1e70]:
+          - button [ref=f1e334] [cursor=pointer]:
+            - generic [ref=f1e73]: Deploy
+          - button [ref=f1e335] [cursor=pointer]
+      - generic [ref=f1e80]:
+        - heading [level=1] [ref=f1e336]:
+          - text: Commercial Performance Intelligence Platform
+          - generic [ref=f1e86]:
+            - link:
+              - /url: "#commercial-performance-intelligence-platform"
+        - paragraph [ref=f1e91]: Executive KPI Dashboard
+        - generic [ref=f1e93]:
+          - generic [ref=f1e98]:
+            - paragraph [ref=f1e101]: Revenue
+            - paragraph [ref=f1e104]: $437,556,547
+            - paragraph [ref=f1e111]: 20.48% YoY
+          - generic [ref=f1e116]:
+            - paragraph [ref=f1e119]: Gross Profit
+            - paragraph [ref=f1e122]: $124,843,656
+          - generic [ref=f1e127]:
+            - paragraph [ref=f1e130]: Gross Margin
+            - paragraph [ref=f1e133]: 28.5%
+          - generic [ref=f1e138]:
+            - paragraph [ref=f1e141]: Avg Order Value
+            - paragraph [ref=f1e144]: $4,251
+          - generic [ref=f1e149]:
+            - paragraph [ref=f1e152]: Active Customers
+            - paragraph [ref=f1e155]: 3,000
+            - paragraph [ref=f1e162]: 0.0% YoY
+        - separator [ref=f1e167]
+        - generic [ref=f1e169]:
+          - generic [ref=f1e177]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: "0"
+                    - generic: 20M
+                    - generic: 40M
+                    - generic: 60M
+                    - generic: 80M
+                    - generic: 100M
+                    - generic: 120M
+                  - generic:
+                    - generic: West
+                    - generic: South
+                    - generic: Midwest
+                    - generic: Northeast
+            - img:
+              - generic:
+                - generic: Revenue by Region
+                - generic: Revenue ($)
+            - toolbar [ref=f1e191]:
+              - button [ref=f1e337] [cursor=pointer]
+              - generic [ref=f1e196]:
+                - button [ref=f1e338] [cursor=pointer]
+                - button [ref=f1e339] [cursor=pointer]
+              - generic [ref=f1e203]:
+                - button [ref=f1e340] [cursor=pointer]
+                - button [ref=f1e341] [cursor=pointer]
+                - button [ref=f1e342] [cursor=pointer]
+                - button [ref=f1e343] [cursor=pointer]
+              - button [ref=f1e344] [cursor=pointer]
+          - generic [ref=f1e227]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: "0"
+                    - generic: 20M
+                    - generic: 40M
+                    - generic: 60M
+                    - generic: 80M
+                  - generic:
+                    - generic: MRO
+                    - generic: Government
+                    - generic: Industrial
+                    - generic: OEM
+                    - generic: Construction
+            - img:
+              - generic:
+                - generic: Revenue by Customer Segment
+                - generic: Revenue ($)
+            - toolbar [ref=f1e241]:
+              - button [ref=f1e345] [cursor=pointer]
+              - generic [ref=f1e246]:
+                - button [ref=f1e346] [cursor=pointer]
+                - button [ref=f1e347] [cursor=pointer]
+              - generic [ref=f1e253]:
+                - button [ref=f1e348] [cursor=pointer]
+                - button [ref=f1e349] [cursor=pointer]
+                - button [ref=f1e350] [cursor=pointer]
+                - button [ref=f1e351] [cursor=pointer]
+              - button [ref=f1e352] [cursor=pointer]
+        - generic [ref=f1e275]:
+          - img:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: "0"
+                  - generic: 0.2M
+                  - generic: 0.4M
+                  - generic: 0.6M
+                  - generic: 0.8M
+                  - generic: 1M
+                  - generic: 1.2M
+                  - generic: 1.4M
+                  - generic: 1.6M
+                - generic:
+                  - generic: "Hard Hat DeWalt #586"
+                  - generic: "Wiring DeWalt #243"
+                  - generic: "Screw Honeywell #424"
+                  - generic: "Pipe Honeywell #596"
+                  - generic: "Wire Brushe Ironclad #103"
+                  - generic: "Pump 3M #583"
+                  - generic: "Pipe Ironclad #696"
+                  - generic: "Anchor Generic-Pro #237"
+                  - generic: "Fan Bosch #55"
+                  - generic: "Switche Milwaukee #382"
+          - img:
+            - generic:
+              - generic: Top 10 Products by Revenue
+              - generic: Revenue ($)
+          - toolbar [ref=f1e289]:
+            - button [ref=f1e353] [cursor=pointer]
+            - generic [ref=f1e294]:
+              - button [ref=f1e354] [cursor=pointer]
+              - button [ref=f1e355] [cursor=pointer]
+            - generic [ref=f1e301]:
+              - button [ref=f1e356] [cursor=pointer]
+              - button [ref=f1e357] [cursor=pointer]
+              - button [ref=f1e358] [cursor=pointer]
+              - button [ref=f1e359] [cursor=pointer]
+            - button [ref=f1e360] [cursor=pointer]
+  - generic [ref=f1e362]:
+    - listbox "Region Open" [ref=f1e363]:
+      - option "All" [selected] [ref=f1e364] [cursor=pointer]
+      - option "MW" [ref=f1e366] [cursor=pointer]
+      - option "NE" [ref=f1e368] [cursor=pointer]
+      - option "SO" [ref=f1e370] [cursor=pointer]
+      - option "WE" [ref=f1e372] [cursor=pointer]
+    - button "Dismiss" [ref=f1e375] [cursor=pointer]

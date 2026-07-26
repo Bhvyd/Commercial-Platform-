@@ -1,0 +1,132 @@
+- generic:
+  - generic [ref=f83e204]:
+    - log
+    - log
+  - generic [ref=f83e2]:
+    - generic [ref=f83e7]:
+      - list [ref=f83e10]:
+        - listitem [ref=f83e11]:
+          - link [ref=f83e235] [cursor=pointer]:
+            - /url: http://127.0.0.1:8501/
+            - paragraph [ref=f83e16]: Executive Summary
+        - listitem [ref=f83e17]:
+          - link [ref=f83e236] [cursor=pointer]:
+            - /url: http://127.0.0.1:8501/Profitability_Analysis
+            - paragraph [ref=f83e22]: Profitability Analysis
+      - generic [ref=f83e26]:
+        - paragraph [ref=f83e31]:
+          - strong [ref=f83e32]: Filters
+        - generic [ref=f83e34]:
+          - paragraph [ref=f83e38]: Quick range
+          - group [ref=f83e40]:
+            - combobox "Quick range" [ref=f83e237]: Last 12 months
+            - button "Open" [ref=f83e238] [cursor=pointer]
+        - generic [ref=f83e47]:
+          - generic [ref=f83e51]:
+            - paragraph [ref=f83e55]: From
+            - textbox "Select a date." [ref=f83e239]:
+              - /placeholder: YYYY/MM/DD
+              - text: 2024/12/31
+            - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+            - paragraph: Selected date is 2024/12/31. Select the second date.
+          - generic [ref=f83e63]:
+            - paragraph [ref=f83e67]: To
+            - textbox "Select a date." [ref=f83e240]:
+              - /placeholder: YYYY/MM/DD
+              - text: 2025/12/31
+            - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+            - paragraph: Selected date is 2025/12/31. Select the second date.
+        - generic [ref=f83e73]:
+          - paragraph [ref=f83e77]: Region
+          - group [ref=f83e79]:
+            - combobox "Region" [ref=f83e241]: All
+            - button "Open" [ref=f83e242] [cursor=pointer]
+        - generic [ref=f83e86]:
+          - paragraph [ref=f83e90]: Category
+          - group [ref=f83e92]:
+            - combobox "Category" [ref=f83e243]: All
+            - button "Open" [ref=f83e244] [cursor=pointer]
+        - generic [ref=f83e99]:
+          - paragraph [ref=f83e103]: Customer Segment
+          - group [ref=f83e105]:
+            - combobox "Customer Segment" [ref=f83e245]: All
+            - button "Open" [ref=f83e246] [cursor=pointer]
+    - generic [ref=f83e3]:
+      - banner [ref=f83e113]
+      - generic [ref=f83e115]:
+        - generic [ref=f83e116]: Profitability Analysis
+        - generic [ref=f83e121]: Where the margin comes from
+        - generic [ref=f83e127]:
+          - generic [ref=f83e131]:
+            - paragraph [ref=f83e135]: Break down by
+            - group [ref=f83e137]:
+              - combobox "Break down by" [ref=f83e247]: Product
+              - button "Open" [ref=f83e248] [cursor=pointer]
+          - generic [ref=f83e146]:
+            - paragraph [ref=f83e150]: Rank by
+            - group [ref=f83e152]:
+              - combobox "Rank by" [active] [ref=f83e153]: Lowest margin %
+              - button "Open" [ref=f83e249] [cursor=pointer]
+        - generic [ref=f83e159]:
+          - generic [ref=f83e160]: Lowest margin % by product
+          - generic [ref=f83e255]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 13.6%
+                            - generic: 13.6%
+                            - generic: 14.0%
+                            - generic: 14.1%
+                            - generic: 14.2%
+                            - generic: 14.2%
+                            - generic: 14.2%
+                            - generic: 14.3%
+                            - generic: 14.4%
+                            - generic: 14.5%
+                            - generic: 14.5%
+                            - generic: 14.5%
+                            - generic: 14.6%
+                            - generic: 14.6%
+                            - generic: 14.6%
+                  - generic:
+                    - generic: "Pallet DeWalt #274"
+                    - generic: "Wire Brushe Honeywell #236"
+                    - generic: "Shelving Milwaukee #333"
+                    - generic: "Pump 3M #474"
+                    - generic: "Pump Milwaukee #452"
+                    - generic: "Conduit Milwaukee #593"
+                    - generic: "Breaker DeWalt #88"
+                    - generic: "Sander Generic-Pro #49"
+                    - generic: "Valve Milwaukee #655"
+                    - generic: "Anchor Bosch #447"
+                    - generic: "Bolt Milwaukee #50"
+                    - generic: "Bolt Honeywell #134"
+                    - generic: "Sanding Disc DeWalt #354"
+                    - generic: "Hand Truck Generic-Pro #423"
+                    - generic: "Sander DeWalt #600"
+        - generic [ref=f83e175]:
+          - generic [ref=f83e176]: Gross margin trend
+          - generic [ref=f83e186]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Jan 2025
+                    - generic: Mar 2025
+                    - generic: May 2025
+                    - generic: Jul 2025
+                    - generic: Sep 2025
+                    - generic: Nov 2025
+                  - generic:
+                    - generic: 28.5%
+                    - generic: 29.0%
+                    - generic: 29.5%
+                    - generic: 30.0%
+        - generic [ref=f83e191]:
+          - generic [ref=f83e192]: Loss-making customers
+          - paragraph [ref=f83e201]: No loss-making customers in the selected filters.

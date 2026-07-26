@@ -1,0 +1,138 @@
+- generic:
+  - generic [ref=f65e259]:
+    - log
+    - log
+  - generic [ref=f65e2]:
+    - generic [ref=f65e4]:
+      - button "keyboard_double_arrow_left" [ref=f65e287] [cursor=pointer]
+      - generic [ref=f65e8]:
+        - paragraph [ref=f65e13]:
+          - strong [ref=f65e14]: Filters
+        - generic [ref=f65e16]:
+          - paragraph [ref=f65e20]: Date range
+          - textbox "Select a date range." [ref=f65e288]:
+            - /placeholder: YYYY/MM/DD – YYYY/MM/DD
+            - text: 2024/12/31 – 2025/12/31
+          - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+          - paragraph: Selected date range is from 2024/12/31 to 2025/12/31.
+        - generic [ref=f65e26]:
+          - paragraph [ref=f65e30]: Region
+          - group [ref=f65e32]:
+            - combobox "Region" [active] [ref=f65e33]: NE
+            - button "Open" [ref=f65e289] [cursor=pointer]
+        - generic [ref=f65e39]:
+          - paragraph [ref=f65e43]: Category
+          - group [ref=f65e45]:
+            - combobox "Category" [ref=f65e290]: All
+            - button "Open" [ref=f65e291] [cursor=pointer]
+        - generic [ref=f65e52]:
+          - paragraph [ref=f65e56]: Customer Segment
+          - group [ref=f65e58]:
+            - combobox "Customer Segment" [ref=f65e292]: All
+            - button "Open" [ref=f65e293] [cursor=pointer]
+    - generic [ref=f65e66]:
+      - banner [ref=f65e67]
+      - generic [ref=f65e71]:
+        - generic [ref=f65e72]: Executive Summary — FY2025
+        - generic [ref=f65e77]: Commercial Performance Intelligence Platform
+        - generic [ref=f65e83]:
+          - generic [ref=f65e88]:
+            - paragraph [ref=f65e91]: Revenue
+            - paragraph [ref=f65e94]: $116.7M
+            - paragraph [ref=f65e98]: 21.45% YoY
+          - generic [ref=f65e103]:
+            - paragraph [ref=f65e106]: Gross Profit
+            - paragraph [ref=f65e109]: $33.3M
+          - generic [ref=f65e114]:
+            - paragraph [ref=f65e117]: Gross Margin
+            - paragraph [ref=f65e120]: 28.6%
+          - generic [ref=f65e125]:
+            - paragraph [ref=f65e128]: Avg Order Value
+            - paragraph [ref=f65e131]: $4,215
+          - generic [ref=f65e136]:
+            - paragraph [ref=f65e139]: Active Customers
+            - paragraph [ref=f65e142]: "795"
+            - paragraph [ref=f65e146]: 0.0% YoY
+        - generic [ref=f65e148]:
+          - generic [ref=f65e149]: Revenue trend
+          - generic [ref=f65e299]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Jan 2025
+                    - generic: Mar 2025
+                    - generic: May 2025
+                    - generic: Jul 2025
+                    - generic: Sep 2025
+                    - generic: Nov 2025
+                  - generic:
+                    - generic: $0.0
+                    - generic: $2.0M
+                    - generic: $4.0M
+                    - generic: $6.0M
+                    - generic: $8.0M
+                    - generic: $10M
+        - generic [ref=f65e174]:
+          - generic [ref=f65e178]:
+            - generic [ref=f65e179]: Revenue by region
+            - generic [ref=f65e318]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic: $116.7M
+                    - generic: Northeast
+          - generic [ref=f65e206]:
+            - generic [ref=f65e207]: Revenue by customer segment
+            - generic [ref=f65e337]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: $29.6M
+                              - generic: $24.0M
+                              - generic: $22.7M
+                              - generic: $21.9M
+                              - generic: $18.6M
+                    - generic:
+                      - generic: MRO
+                      - generic: Government
+                      - generic: Industrial
+                      - generic: OEM
+                      - generic: Construction
+        - generic [ref=f65e232]:
+          - generic [ref=f65e233]: Top 10 products by revenue
+          - generic [ref=f65e356]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $438,332
+                            - generic: $424,508
+                            - generic: $424,443
+                            - generic: $399,683
+                            - generic: $392,617
+                            - generic: $392,211
+                            - generic: $392,035
+                            - generic: $386,208
+                            - generic: $384,577
+                            - generic: $375,677
+                  - generic:
+                    - generic: "Drill DeWalt #539"
+                    - generic: "Switche DeWalt #745"
+                    - generic: "Drill Generic-Pro #590"
+                    - generic: "Pipe Ironclad #696"
+                    - generic: "Pipe Honeywell #596"
+                    - generic: "Anchor Honeywell #227"
+                    - generic: "Switche Milwaukee #382"
+                    - generic: "Pump 3M #583"
+                    - generic: "Fan Bosch #55"
+                    - generic: "Pump Honeywell #402"

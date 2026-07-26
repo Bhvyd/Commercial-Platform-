@@ -1,0 +1,129 @@
+- generic [ref=f81e2]:
+  - generic [ref=f81e4]:
+    - button "keyboard_double_arrow_left" [ref=f81e264] [cursor=pointer]
+    - list [ref=f81e7]:
+      - listitem [ref=f81e8]:
+        - link [ref=f81e10] [cursor=pointer]:
+          - /url: http://127.0.0.1:8501/
+          - paragraph [ref=f81e13]: Executive Summary
+      - listitem [ref=f81e14]:
+        - link [active] [ref=f81e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8501/Profitability_Analysis
+          - paragraph [ref=f81e19]: Profitability Analysis
+    - generic [ref=f81e23]:
+      - paragraph [ref=f81e272]:
+        - strong [ref=f81e273]: Filters
+      - generic [ref=f81e275]:
+        - paragraph [ref=f81e279]: Quick range
+        - group [ref=f81e281]:
+          - combobox "Quick range" [ref=f81e282]: Last 12 months
+          - button "Open" [ref=f81e283] [cursor=pointer]
+      - generic [ref=f81e288]:
+        - generic [ref=f81e292]:
+          - paragraph [ref=f81e296]: From
+          - textbox "Select a date." [ref=f81e300]:
+            - /placeholder: YYYY/MM/DD
+            - text: 2024/12/31
+          - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+          - paragraph: Selected date is 2024/12/31. Select the second date.
+        - generic [ref=f81e304]:
+          - paragraph [ref=f81e308]: To
+          - textbox "Select a date." [ref=f81e312]:
+            - /placeholder: YYYY/MM/DD
+            - text: 2025/12/31
+          - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+          - paragraph: Selected date is 2025/12/31. Select the second date.
+      - generic [ref=f81e314]:
+        - paragraph [ref=f81e318]: Region
+        - group [ref=f81e320]:
+          - combobox "Region" [ref=f81e321]: All
+          - button "Open" [ref=f81e322] [cursor=pointer]
+      - generic [ref=f81e327]:
+        - paragraph [ref=f81e331]: Category
+        - group [ref=f81e333]:
+          - combobox "Category" [ref=f81e334]: All
+          - button "Open" [ref=f81e335] [cursor=pointer]
+      - generic [ref=f81e340]:
+        - paragraph [ref=f81e344]: Customer Segment
+        - group [ref=f81e346]:
+          - combobox "Customer Segment" [ref=f81e347]: All
+          - button "Open" [ref=f81e348] [cursor=pointer]
+  - generic [ref=f81e110]:
+    - banner [ref=f81e111]
+    - generic [ref=f81e115]:
+      - generic [ref=f81e352]: Profitability Analysis
+      - generic [ref=f81e357]: Where the margin comes from
+      - generic [ref=f81e363]:
+        - generic [ref=f81e367]:
+          - paragraph [ref=f81e371]: Break down by
+          - group [ref=f81e373]:
+            - combobox "Break down by" [ref=f81e374]: Product
+            - button "Open" [ref=f81e375] [cursor=pointer]
+        - generic [ref=f81e382]:
+          - paragraph [ref=f81e386]: Rank by
+          - group [ref=f81e388]:
+            - combobox "Rank by" [ref=f81e389]: Highest gross profit
+            - button "Open" [ref=f81e390] [cursor=pointer]
+      - generic [ref=f81e395]:
+        - generic [ref=f81e396]: Highest gross profit by product
+        - generic [ref=f81e406]:
+          - img:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: $616,733
+                          - generic: $588,963
+                          - generic: $564,405
+                          - generic: $553,795
+                          - generic: $524,479
+                          - generic: $517,895
+                          - generic: $515,801
+                          - generic: $513,488
+                          - generic: $510,819
+                          - generic: $498,755
+                          - generic: $495,936
+                          - generic: $493,208
+                          - generic: $485,764
+                          - generic: $476,904
+                          - generic: $475,913
+                - generic:
+                  - generic: "Hard Hat DeWalt #586"
+                  - generic: "Wire Brushe Honeywell #324"
+                  - generic: "Sanding Disc 3M #303"
+                  - generic: "Rivet Ironclad #203"
+                  - generic: "Pump 3M #583"
+                  - generic: "Breaker Honeywell #747"
+                  - generic: "Pipe Honeywell #596"
+                  - generic: "Shelving Milwaukee #374"
+                  - generic: "Anchor Honeywell #227"
+                  - generic: "Wiring DeWalt #243"
+                  - generic: "Wire Brushe Ironclad #103"
+                  - generic: "Pipe Ironclad #696"
+                  - generic: "Anchor Generic-Pro #237"
+                  - generic: "Fan Bosch #55"
+                  - generic: "Switche Milwaukee #382"
+      - generic [ref=f81e411]:
+        - generic [ref=f81e412]: Gross margin trend
+        - generic [ref=f81e422]:
+          - img:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Jan 2025
+                  - generic: Mar 2025
+                  - generic: May 2025
+                  - generic: Jul 2025
+                  - generic: Sep 2025
+                  - generic: Nov 2025
+                - generic:
+                  - generic: 28.5%
+                  - generic: 29.0%
+                  - generic: 29.5%
+                  - generic: 30.0%
+      - generic [ref=f81e427]:
+        - generic [ref=f81e428]: Loss-making customers
+        - paragraph [ref=f81e437]: No loss-making customers in the selected filters.

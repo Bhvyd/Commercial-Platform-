@@ -1,0 +1,143 @@
+- generic [ref=f63e2]:
+  - generic [ref=f63e3]:
+    - button "keyboard_double_arrow_left" [ref=f63e5] [cursor=pointer]
+    - generic [ref=f63e8]:
+      - paragraph [ref=f63e13]:
+        - strong [ref=f63e14]: Filters
+      - generic [ref=f63e16]:
+        - paragraph [ref=f63e20]: Date range
+        - textbox "Select a date range." [ref=f63e24]:
+          - /placeholder: YYYY/MM/DD – YYYY/MM/DD
+          - text: 2024/12/31 – 2025/12/31
+        - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+        - paragraph: Selected date range is from 2024/12/31 to 2025/12/31.
+      - generic [ref=f63e26]:
+        - paragraph [ref=f63e30]: Region
+        - group [ref=f63e32]:
+          - combobox "Region" [ref=f63e33]: All
+          - button "Open" [ref=f63e34] [cursor=pointer]
+      - generic [ref=f63e39]:
+        - paragraph [ref=f63e43]: Category
+        - group [ref=f63e45]:
+          - combobox "Category" [ref=f63e46]: All
+          - button "Open" [ref=f63e47] [cursor=pointer]
+      - generic [ref=f63e52]:
+        - paragraph [ref=f63e56]: Customer Segment
+        - group [ref=f63e58]:
+          - combobox "Customer Segment" [ref=f63e59]: All
+          - button "Open" [ref=f63e60] [cursor=pointer]
+  - generic [ref=f63e66]:
+    - banner [ref=f63e67]
+    - generic [ref=f63e77]:
+      - generic [ref=f63e78]: Executive Summary — FY2025
+      - generic [ref=f63e83]: Commercial Performance Intelligence Platform
+      - generic [ref=f63e89]:
+        - generic [ref=f63e94]:
+          - paragraph [ref=f63e97]: Revenue
+          - paragraph [ref=f63e100]: $437.6M
+          - paragraph [ref=f63e104]: 20.48% YoY
+        - generic [ref=f63e109]:
+          - paragraph [ref=f63e112]: Gross Profit
+          - paragraph [ref=f63e115]: $124.8M
+        - generic [ref=f63e120]:
+          - paragraph [ref=f63e123]: Gross Margin
+          - paragraph [ref=f63e126]: 28.5%
+        - generic [ref=f63e131]:
+          - paragraph [ref=f63e134]: Avg Order Value
+          - paragraph [ref=f63e137]: $4,251
+        - generic [ref=f63e142]:
+          - paragraph [ref=f63e145]: Active Customers
+          - paragraph [ref=f63e148]: 3,000
+          - paragraph [ref=f63e152]: 0.0% YoY
+      - generic [ref=f63e154]:
+        - generic [ref=f63e155]: Revenue trend
+        - generic [ref=f63e165]:
+          - img:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Jan 2025
+                  - generic: Apr 2025
+                  - generic: Jul 2025
+                  - generic: Oct 2025
+                - generic:
+                  - generic: $0.0
+                  - generic: $10M
+                  - generic: $20M
+                  - generic: $30M
+                  - generic: $40M
+      - generic [ref=f63e180]:
+        - generic [ref=f63e184]:
+          - generic [ref=f63e185]: Revenue by region
+          - generic [ref=f63e195]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $116.7M
+                            - generic: $115.7M
+                            - generic: $105.5M
+                            - generic: $99.6M
+                  - generic:
+                    - generic: West
+                    - generic: South
+                    - generic: Midwest
+                    - generic: Northeast
+        - generic [ref=f63e212]:
+          - generic [ref=f63e213]: Revenue by customer segment
+          - generic [ref=f63e223]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $94.6M
+                            - generic: $91.3M
+                            - generic: $86.6M
+                            - generic: $86.4M
+                            - generic: $78.6M
+                  - generic:
+                    - generic: MRO
+                    - generic: Government
+                    - generic: Industrial
+                    - generic: OEM
+                    - generic: Construction
+      - generic [ref=f63e238]:
+        - generic [ref=f63e239]: Top 10 products by revenue
+        - generic [ref=f63e249]:
+          - img:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: $1.5M
+                          - generic: $1.5M
+                          - generic: $1.4M
+                          - generic: $1.4M
+                          - generic: $1.4M
+                          - generic: $1.4M
+                          - generic: $1.3M
+                          - generic: $1.3M
+                          - generic: $1.3M
+                          - generic: $1.3M
+                - generic:
+                  - generic: "Hard Hat DeWalt #586"
+                  - generic: "Wiring DeWalt #243"
+                  - generic: "Screw Honeywell #424"
+                  - generic: "Pipe Honeywell #596"
+                  - generic: "Wire Brushe Ironclad #103"
+                  - generic: "Pump 3M #583"
+                  - generic: "Pipe Ironclad #696"
+                  - generic: "Anchor Generic-Pro #237"
+                  - generic: "Fan Bosch #55"
+                  - generic: "Switche Milwaukee #382"

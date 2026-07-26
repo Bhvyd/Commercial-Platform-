@@ -1,0 +1,26 @@
+[     118ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8501/Profitability_Analysis/_stcore/host-config:0
+[     118ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8501/Profitability_Analysis/_stcore/health:0
+[  278707ms] [WARNING] `preventOverflow` modifier is required by `hide` modifier in order to work, be sure to include it before `hide`! @ http://127.0.0.1:8501/static/js/utils.94RcZhG4.js:3
+[  409884ms] [WARNING] WebSocket onclose @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:33
+[  412266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  412266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  412519ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  414399ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  414400ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  414727ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  416434ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  416783ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  419055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  419055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  422231ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  422232ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:32
+[  422232ms] [ERROR] Streamlit server is not responding. Are you connected to the internet? @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:37
+[  422232ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  426942ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  426943ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:32
+[  426943ms] [ERROR] Streamlit server is not responding. Are you connected to the internet? @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:37
+[  426943ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  432262ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  432262ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:32
+[  432262ms] [ERROR] Streamlit server is not responding. Are you connected to the internet? @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:37
+[  432263ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0

@@ -1,0 +1,87 @@
+- generic [ref=f92e2]:
+  - generic [ref=f92e11]:
+    - paragraph [ref=f92e16]:
+      - strong [ref=f92e17]: Filters
+    - generic [ref=f92e19]:
+      - paragraph [ref=f92e23]: Quick range
+      - group [ref=f92e25]:
+        - combobox "Quick range" [ref=f92e26]: Last 12 months
+        - button "Open" [ref=f92e27] [cursor=pointer]
+    - generic [ref=f92e32]:
+      - generic [ref=f92e36]:
+        - paragraph [ref=f92e40]: From
+        - textbox "Select a date." [ref=f92e44]:
+          - /placeholder: YYYY/MM/DD
+          - text: 2024/12/31
+        - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+        - paragraph: Selected date is 2024/12/31. Select the second date.
+      - generic [ref=f92e48]:
+        - paragraph [ref=f92e52]: To
+        - textbox "Select a date." [ref=f92e56]:
+          - /placeholder: YYYY/MM/DD
+          - text: 2025/12/31
+        - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+        - paragraph: Selected date is 2025/12/31. Select the second date.
+    - generic [ref=f92e58]:
+      - paragraph [ref=f92e62]: Region
+      - group [ref=f92e64]:
+        - combobox "Region" [ref=f92e65]: All
+        - button "Open" [ref=f92e66] [cursor=pointer]
+    - generic [ref=f92e71]:
+      - paragraph [ref=f92e75]: Category
+      - group [ref=f92e77]:
+        - combobox "Category" [ref=f92e78]: All
+        - button "Open" [ref=f92e79] [cursor=pointer]
+    - generic [ref=f92e84]:
+      - paragraph [ref=f92e88]: Customer Segment
+      - group [ref=f92e90]:
+        - combobox "Customer Segment" [ref=f92e91]: All
+        - button "Open" [ref=f92e92] [cursor=pointer]
+  - generic [ref=f92e3]:
+    - banner [ref=f92e98]
+    - generic [ref=f92e102]:
+      - tablist [ref=f92e103]:
+        - tab [ref=f92e104] [cursor=pointer]:
+          - paragraph [ref=f92e106]: Executive Summary
+        - tab [ref=f92e108] [cursor=pointer]:
+          - paragraph [ref=f92e110]: Profitability Analysis
+        - tab [ref=f92e111] [cursor=pointer]:
+          - paragraph [ref=f92e113]: Pricing & Discount
+        - tab [ref=f92e114] [cursor=pointer]:
+          - paragraph [ref=f92e116]: Revenue Leakage
+        - tab [ref=f92e117] [cursor=pointer]:
+          - paragraph [ref=f92e119]: Sales Performance
+        - tab [active] [selected] [ref=f92e120] [cursor=pointer]:
+          - paragraph [ref=f92e122]: Customer Analytics
+        - tab [ref=f92e123] [cursor=pointer]:
+          - paragraph [ref=f92e125]: Business Insights
+        - tab [ref=f92e126] [cursor=pointer]:
+          - paragraph [ref=f92e128]: Executive Reporting
+      - tabpanel "Customer Analytics" [ref=f92e537]:
+        - generic [ref=f92e538]:
+          - generic [ref=f92e539]: Customer Analytics
+          - generic [ref=f92e544]: Who drives the business
+          - generic [ref=f92e550]:
+            - generic [ref=f92e555]:
+              - paragraph [ref=f92e558]: Total customers
+              - paragraph [ref=f92e561]: 3,000
+            - generic [ref=f92e566]:
+              - paragraph [ref=f92e569]: Repeat customers
+              - paragraph [ref=f92e572]: 3,000
+            - generic [ref=f92e577]:
+              - paragraph [ref=f92e580]: Repeat purchase rate
+              - paragraph [ref=f92e583]: 100.0%
+            - generic [ref=f92e588]:
+              - paragraph [ref=f92e591]: Avg orders / customer
+              - paragraph [ref=f92e594]: "34.5"
+          - generic [ref=f92e596]:
+            - generic [ref=f92e597]: Customers by RFM segment
+            - generic [ref=f92e609]: High-value customers (by revenue)
+          - paragraph [ref=f92e625]: "RFM segments: Champions (recent, frequent, high-spend), Loyal (frequent), Recent (recently acquired), At Risk (infrequent and not recent), Regular (everyone else)."
+          - generic [ref=f92e627]:
+            - generic [ref=f92e628]: Top customers detail
+            - generic [ref=f92e637]:
+              - button "Show/hide columns" [ref=f92e641] [cursor=pointer]
+              - button "Download as CSV" [ref=f92e647] [cursor=pointer]
+              - button "Search" [ref=f92e653] [cursor=pointer]
+              - button "Fullscreen" [ref=f92e659] [cursor=pointer]

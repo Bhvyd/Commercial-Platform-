@@ -1,0 +1,3 @@
+[     121ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8501/Pricing_Discount_Analytics/_stcore/host-config:0
+[     122ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8501/Pricing_Discount_Analytics/_stcore/health:0
+[  146055ms] [WARNING] WebSocket onclose @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:33

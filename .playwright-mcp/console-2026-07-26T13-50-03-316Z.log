@@ -1,0 +1,35 @@
+[  467433ms] [WARNING] WebSocket onclose @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:33
+[  469844ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  469844ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  470096ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  471968ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  471969ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  472316ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  473989ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  474336ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  476582ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  476582ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  480103ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  480103ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:32
+[  480103ms] [ERROR] Streamlit server is not responding. Are you connected to the internet? @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:37
+[  480104ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  484979ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  484980ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:32
+[  484980ms] [ERROR] Streamlit server is not responding. Are you connected to the internet? @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:37
+[  484980ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  490514ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  490515ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:32
+[  490515ms] [ERROR] Streamlit server is not responding. Are you connected to the internet? @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:37
+[  490516ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  496220ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  496220ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:32
+[  496221ms] [ERROR] Streamlit server is not responding. Are you connected to the internet? @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:37
+[  496221ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  501520ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  501520ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:32
+[  501521ms] [ERROR] Streamlit server is not responding. Are you connected to the internet? @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:37
+[  501521ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0
+[  506964ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/health:0
+[  506964ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:32
+[  506964ms] [ERROR] Streamlit server is not responding. Are you connected to the internet? @ http://127.0.0.1:8501/static/js/index.BvGIeCyC.js:37
+[  506979ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8501/_stcore/host-config:0

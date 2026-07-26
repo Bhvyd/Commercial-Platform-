@@ -1,0 +1,167 @@
+- generic:
+  - generic [ref=f71e532]:
+    - log [ref=f71e533]:
+      - generic [ref=f71e534]: 5 options available.
+    - log
+  - generic [ref=f71e2]:
+    - generic [ref=f71e7]:
+      - button [ref=f71e535] [cursor=pointer]:
+        - generic [ref=f71e250]: keyboard_double_arrow_left
+      - generic [ref=f71e11]:
+        - paragraph [ref=f71e16]:
+          - strong [ref=f71e17]: Filters
+        - generic [ref=f71e19]:
+          - paragraph [ref=f71e23]: Quick range
+          - group [ref=f71e25]:
+            - combobox [ref=f71e536]: Last 12 months
+            - button [ref=f71e537] [cursor=pointer]
+        - generic [ref=f71e32]:
+          - generic [ref=f71e36]:
+            - paragraph [ref=f71e40]: From
+            - textbox [ref=f71e538]:
+              - /placeholder: YYYY/MM/DD
+              - text: 2023/06/01
+          - generic [ref=f71e48]:
+            - paragraph [ref=f71e52]: To
+            - textbox [ref=f71e539]:
+              - /placeholder: YYYY/MM/DD
+              - text: 2025/12/31
+        - paragraph [ref=f71e398]: Custom range
+        - generic [ref=f71e58]:
+          - paragraph [ref=f71e62]: Region
+          - group [ref=f71e64]:
+            - combobox "Region" [expanded] [active] [ref=f71e65]: All
+            - button [expanded] [ref=f71e540] [cursor=pointer]
+        - generic [ref=f71e71]:
+          - paragraph [ref=f71e75]: Category
+          - group [ref=f71e77]:
+            - combobox [ref=f71e541]: All
+            - button [ref=f71e542] [cursor=pointer]
+        - generic [ref=f71e84]:
+          - paragraph [ref=f71e88]: Customer Segment
+          - group [ref=f71e90]:
+            - combobox [ref=f71e543]: All
+            - button [ref=f71e544] [cursor=pointer]
+    - generic [ref=f71e3]:
+      - banner [ref=f71e98]
+      - generic [ref=f71e100]:
+        - generic [ref=f71e101]: Executive Summary — FY2025
+        - generic [ref=f71e106]: Commercial Performance Intelligence Platform
+        - generic [ref=f71e112]:
+          - generic [ref=f71e117]:
+            - paragraph [ref=f71e120]: Revenue
+            - paragraph [ref=f71e123]: $978.6M
+            - paragraph [ref=f71e127]: 49.96% YoY
+          - generic [ref=f71e132]:
+            - paragraph [ref=f71e135]: Gross Profit
+            - paragraph [ref=f71e138]: $279.3M
+          - generic [ref=f71e143]:
+            - paragraph [ref=f71e146]: Gross Margin
+            - paragraph [ref=f71e149]: 28.5%
+          - generic [ref=f71e154]:
+            - paragraph [ref=f71e157]: Avg Order Value
+            - paragraph [ref=f71e160]: $4,272
+          - generic [ref=f71e165]:
+            - paragraph [ref=f71e168]: Active Customers
+            - paragraph [ref=f71e171]: 3,000
+            - paragraph [ref=f71e175]: 0.0% YoY
+        - generic [ref=f71e177]:
+          - generic [ref=f71e178]: Revenue trend
+          - generic [ref=f71e404]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Jul 2023
+                    - generic: Jan 2024
+                    - generic: Jul 2024
+                    - generic: Jan 2025
+                    - generic: Jul 2025
+                  - generic:
+                    - generic: $25M
+                    - generic: $30M
+                    - generic: $35M
+                    - generic: $40M
+        - generic [ref=f71e193]:
+          - generic [ref=f71e197]:
+            - generic [ref=f71e198]: Revenue by region
+            - generic [ref=f71e413]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: $260.8M
+                              - generic: $258.6M
+                              - generic: $235.4M
+                              - generic: $223.8M
+                    - generic:
+                      - generic: West
+                      - generic: South
+                      - generic: Midwest
+                      - generic: Northeast
+          - generic [ref=f71e215]:
+            - generic [ref=f71e216]: Revenue by customer segment
+            - generic [ref=f71e422]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: $212.4M
+                              - generic: $202.8M
+                              - generic: $193.4M
+                              - generic: $193.3M
+                              - generic: $176.6M
+                    - generic:
+                      - generic: MRO
+                      - generic: Government
+                      - generic: Industrial
+                      - generic: OEM
+                      - generic: Construction
+        - generic [ref=f71e231]:
+          - generic [ref=f71e232]: Top 10 products by revenue
+          - generic [ref=f71e431]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $3.3M
+                            - generic: $3.2M
+                            - generic: $3.1M
+                            - generic: $3.1M
+                            - generic: $3.0M
+                            - generic: $3.0M
+                            - generic: $3.0M
+                            - generic: $2.9M
+                            - generic: $2.9M
+                            - generic: $2.9M
+                  - generic:
+                    - generic: "Shelving Milwaukee #374"
+                    - generic: "Rivet Ironclad #684"
+                    - generic: "Wire Brushe Honeywell #324"
+                    - generic: "Screw Honeywell #424"
+                    - generic: "Wiring DeWalt #243"
+                    - generic: "Wire Brushe Ironclad #103"
+                    - generic: "Fan Bosch #55"
+                    - generic: "Anchor Honeywell #227"
+                    - generic: "Switche Milwaukee #382"
+                    - generic: "Anchor Generic-Pro #237"
+  - generic [ref=f71e546]:
+    - listbox "Region Open" [ref=f71e547]:
+      - option "All" [selected] [ref=f71e548] [cursor=pointer]
+      - option "MW" [ref=f71e550] [cursor=pointer]
+      - option "NE" [ref=f71e552] [cursor=pointer]
+      - option "SO" [ref=f71e554] [cursor=pointer]
+      - option "WE" [ref=f71e556] [cursor=pointer]
+    - button "Dismiss" [ref=f71e559] [cursor=pointer]

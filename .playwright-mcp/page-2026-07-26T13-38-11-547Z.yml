@@ -1,0 +1,248 @@
+- generic:
+  - generic [ref=f71e2]:
+    - generic [ref=f71e7]:
+      - button "keyboard_double_arrow_left" [ref=f71e249] [cursor=pointer]
+      - generic [ref=f71e11]:
+        - paragraph [ref=f71e16]:
+          - strong [ref=f71e17]: Filters
+        - generic [ref=f71e19]:
+          - paragraph [ref=f71e23]: Quick range
+          - group [ref=f71e25]:
+            - combobox "Quick range" [ref=f71e26]: Last 12 months
+            - button "Open" [ref=f71e27] [cursor=pointer]
+        - generic [ref=f71e32]:
+          - generic [ref=f71e36]:
+            - paragraph [ref=f71e40]: From
+            - textbox "Select a date." [active] [ref=f71e44]:
+              - /placeholder: YYYY/MM/DD
+              - text: 2024/12/31
+            - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+            - paragraph: Selected date is 2024/12/31. Select the second date.
+          - generic [ref=f71e48]:
+            - paragraph [ref=f71e52]: To
+            - textbox "Select a date." [ref=f71e56]:
+              - /placeholder: YYYY/MM/DD
+              - text: 2025/12/31
+            - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+            - paragraph: Selected date is 2025/12/31. Select the second date.
+        - generic [ref=f71e58]:
+          - paragraph [ref=f71e62]: Region
+          - group [ref=f71e64]:
+            - combobox "Region" [ref=f71e65]: All
+            - button "Open" [ref=f71e66] [cursor=pointer]
+        - generic [ref=f71e71]:
+          - paragraph [ref=f71e75]: Category
+          - group [ref=f71e77]:
+            - combobox "Category" [ref=f71e78]: All
+            - button "Open" [ref=f71e79] [cursor=pointer]
+        - generic [ref=f71e84]:
+          - paragraph [ref=f71e88]: Customer Segment
+          - group [ref=f71e90]:
+            - combobox "Customer Segment" [ref=f71e91]: All
+            - button "Open" [ref=f71e92] [cursor=pointer]
+    - generic [ref=f71e3]:
+      - banner [ref=f71e98]
+      - generic [ref=f71e100]:
+        - generic [ref=f71e101]: Executive Summary — FY2025
+        - generic [ref=f71e106]: Commercial Performance Intelligence Platform
+        - generic [ref=f71e112]:
+          - generic [ref=f71e117]:
+            - paragraph [ref=f71e120]: Revenue
+            - paragraph [ref=f71e123]: $437.6M
+            - paragraph [ref=f71e127]: 20.48% YoY
+          - generic [ref=f71e132]:
+            - paragraph [ref=f71e135]: Gross Profit
+            - paragraph [ref=f71e138]: $124.8M
+          - generic [ref=f71e143]:
+            - paragraph [ref=f71e146]: Gross Margin
+            - paragraph [ref=f71e149]: 28.5%
+          - generic [ref=f71e154]:
+            - paragraph [ref=f71e157]: Avg Order Value
+            - paragraph [ref=f71e160]: $4,251
+          - generic [ref=f71e165]:
+            - paragraph [ref=f71e168]: Active Customers
+            - paragraph [ref=f71e171]: 3,000
+            - paragraph [ref=f71e175]: 0.0% YoY
+        - generic [ref=f71e177]:
+          - generic [ref=f71e178]: Revenue trend
+          - generic [ref=f71e188]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Jan 2025
+                    - generic: Mar 2025
+                    - generic: May 2025
+                    - generic: Jul 2025
+                    - generic: Sep 2025
+                    - generic: Nov 2025
+                  - generic:
+                    - generic: $0.0
+                    - generic: $10M
+                    - generic: $20M
+                    - generic: $30M
+                    - generic: $40M
+        - generic [ref=f71e193]:
+          - generic [ref=f71e197]:
+            - generic [ref=f71e198]: Revenue by region
+            - generic [ref=f71e208]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: $116.7M
+                              - generic: $115.7M
+                              - generic: $105.5M
+                              - generic: $99.6M
+                    - generic:
+                      - generic: West
+                      - generic: South
+                      - generic: Midwest
+                      - generic: Northeast
+          - generic [ref=f71e215]:
+            - generic [ref=f71e216]: Revenue by customer segment
+            - generic [ref=f71e226]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: $94.6M
+                              - generic: $91.3M
+                              - generic: $86.6M
+                              - generic: $86.4M
+                              - generic: $78.6M
+                    - generic:
+                      - generic: MRO
+                      - generic: Government
+                      - generic: Industrial
+                      - generic: OEM
+                      - generic: Construction
+        - generic [ref=f71e231]:
+          - generic [ref=f71e232]: Top 10 products by revenue
+          - generic [ref=f71e242]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $1.5M
+                            - generic: $1.5M
+                            - generic: $1.4M
+                            - generic: $1.4M
+                            - generic: $1.4M
+                            - generic: $1.4M
+                            - generic: $1.3M
+                            - generic: $1.3M
+                            - generic: $1.3M
+                            - generic: $1.3M
+                  - generic:
+                    - generic: "Hard Hat DeWalt #586"
+                    - generic: "Wiring DeWalt #243"
+                    - generic: "Screw Honeywell #424"
+                    - generic: "Pipe Honeywell #596"
+                    - generic: "Wire Brushe Ironclad #103"
+                    - generic: "Pump 3M #583"
+                    - generic: "Pipe Ironclad #696"
+                    - generic: "Anchor Generic-Pro #237"
+                    - generic: "Fan Bosch #55"
+                    - generic: "Switche Milwaukee #382"
+  - application "Calendar." [ref=f71e254]:
+    - generic [ref=f71e256]:
+      - generic [ref=f71e257]:
+        - button "Previous month." [ref=f71e258] [cursor=pointer]:
+          - img "Left" [ref=f71e259]
+        - button [ref=f71e261] [cursor=pointer]
+        - button [ref=f71e264] [cursor=pointer]
+        - button "Next month." [ref=f71e267] [cursor=pointer]:
+          - img "Right" [ref=f71e268]
+      - generic [ref=f71e270]: Su
+      - generic [ref=f71e271]: Mo
+      - generic [ref=f71e272]: Tu
+      - generic [ref=f71e273]: We
+      - generic [ref=f71e274]: Th
+      - generic [ref=f71e275]: Fr
+      - generic [ref=f71e276]: Sa
+      - grid [ref=f71e277]:
+        - generic [ref=f71e278]:
+          - row [ref=f71e279]:
+            - gridcell "Choose Sunday, December 1st 2024. It's available." [ref=f71e280] [cursor=pointer]:
+              - generic [ref=f71e281]: "1"
+            - gridcell "Choose Monday, December 2nd 2024. It's available." [ref=f71e282] [cursor=pointer]:
+              - generic [ref=f71e283]: "2"
+            - gridcell "Choose Tuesday, December 3rd 2024. It's available." [ref=f71e284] [cursor=pointer]:
+              - generic [ref=f71e285]: "3"
+            - gridcell "Choose Wednesday, December 4th 2024. It's available." [ref=f71e286] [cursor=pointer]:
+              - generic [ref=f71e287]: "4"
+            - gridcell "Choose Thursday, December 5th 2024. It's available." [ref=f71e288] [cursor=pointer]:
+              - generic [ref=f71e289]: "5"
+            - gridcell "Choose Friday, December 6th 2024. It's available." [ref=f71e290] [cursor=pointer]:
+              - generic [ref=f71e291]: "6"
+            - gridcell "Choose Saturday, December 7th 2024. It's available." [ref=f71e292] [cursor=pointer]:
+              - generic [ref=f71e293]: "7"
+          - row [ref=f71e294]:
+            - gridcell "Choose Sunday, December 8th 2024. It's available." [ref=f71e295] [cursor=pointer]:
+              - generic [ref=f71e296]: "8"
+            - gridcell "Choose Monday, December 9th 2024. It's available." [ref=f71e297] [cursor=pointer]:
+              - generic [ref=f71e298]: "9"
+            - gridcell "Choose Tuesday, December 10th 2024. It's available." [ref=f71e299] [cursor=pointer]:
+              - generic [ref=f71e300]: "10"
+            - gridcell "Choose Wednesday, December 11th 2024. It's available." [ref=f71e301] [cursor=pointer]:
+              - generic [ref=f71e302]: "11"
+            - gridcell "Choose Thursday, December 12th 2024. It's available." [ref=f71e303] [cursor=pointer]:
+              - generic [ref=f71e304]: "12"
+            - gridcell "Choose Friday, December 13th 2024. It's available." [ref=f71e305] [cursor=pointer]:
+              - generic [ref=f71e306]: "13"
+            - gridcell "Choose Saturday, December 14th 2024. It's available." [ref=f71e307] [cursor=pointer]:
+              - generic [ref=f71e308]: "14"
+          - row [ref=f71e309]:
+            - gridcell "Choose Sunday, December 15th 2024. It's available." [ref=f71e310] [cursor=pointer]:
+              - generic [ref=f71e311]: "15"
+            - gridcell "Choose Monday, December 16th 2024. It's available." [ref=f71e312] [cursor=pointer]:
+              - generic [ref=f71e313]: "16"
+            - gridcell "Choose Tuesday, December 17th 2024. It's available." [ref=f71e314] [cursor=pointer]:
+              - generic [ref=f71e315]: "17"
+            - gridcell "Choose Wednesday, December 18th 2024. It's available." [ref=f71e316] [cursor=pointer]:
+              - generic [ref=f71e317]: "18"
+            - gridcell "Choose Thursday, December 19th 2024. It's available." [ref=f71e318] [cursor=pointer]:
+              - generic [ref=f71e319]: "19"
+            - gridcell "Choose Friday, December 20th 2024. It's available." [ref=f71e320] [cursor=pointer]:
+              - generic [ref=f71e321]: "20"
+            - gridcell "Choose Saturday, December 21st 2024. It's available." [ref=f71e322] [cursor=pointer]:
+              - generic [ref=f71e323]: "21"
+          - row [ref=f71e324]:
+            - gridcell "Choose Sunday, December 22nd 2024. It's available." [ref=f71e325] [cursor=pointer]:
+              - generic [ref=f71e326]: "22"
+            - gridcell "Choose Monday, December 23rd 2024. It's available." [ref=f71e327] [cursor=pointer]:
+              - generic [ref=f71e328]: "23"
+            - gridcell "Choose Tuesday, December 24th 2024. It's available." [ref=f71e329] [cursor=pointer]:
+              - generic [ref=f71e330]: "24"
+            - gridcell "Choose Wednesday, December 25th 2024. It's available." [ref=f71e331] [cursor=pointer]:
+              - generic [ref=f71e332]: "25"
+            - gridcell "Choose Thursday, December 26th 2024. It's available." [ref=f71e333] [cursor=pointer]:
+              - generic [ref=f71e334]: "26"
+            - gridcell "Choose Friday, December 27th 2024. It's available." [ref=f71e335] [cursor=pointer]:
+              - generic [ref=f71e336]: "27"
+            - gridcell "Choose Saturday, December 28th 2024. It's available." [ref=f71e337] [cursor=pointer]:
+              - generic [ref=f71e338]: "28"
+          - row [ref=f71e339]:
+            - gridcell "Choose Sunday, December 29th 2024. It's available." [ref=f71e340] [cursor=pointer]:
+              - generic [ref=f71e341]: "29"
+            - gridcell "Choose Monday, December 30th 2024. It's available." [ref=f71e342] [cursor=pointer]:
+              - generic [ref=f71e343]: "30"
+            - gridcell "Selected. Tuesday, December 31st 2024. It's available." [ref=f71e344] [cursor=pointer]:
+              - generic [ref=f71e345]: "31"
+            - gridcell [ref=f71e346]
+            - gridcell [ref=f71e347]
+            - gridcell [ref=f71e348]
+            - gridcell [ref=f71e349]
